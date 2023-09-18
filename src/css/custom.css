@@ -1,0 +1,74 @@
+p {
+	line-height: 1.5;
+}
+
+.header {
+	height: 80vh;
+	background-image: url("/src/images/header-background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+@media (max-width: 668px) {
+	.header-container {
+		top: 60px;
+	}
+}
+
+.date-header {
+	background-color: #edd759;
+	max-width: 136px;
+}
+
+.display-header {
+	background-color: #edd759;
+	max-width: 878px;
+}
+
+.display-header-subtitle {
+	background-color: #edd759;
+	max-width: 578px;
+}
+
+.section-spacer {
+	padding-block: 6rem;
+	margin-block: 2rem;
+}
+
+.skills-spacer {
+	padding-block-end: 6rem;
+	margin-block: 2rem;
+}
+
+/* .section-text-content {
+	max-width: 1024px;
+} */
+
+.title-mark {
+	color: #212529;
+	border: solid 5px #212529;
+	background-color: #edd759;
+	max-width: 72px;
+	max-height: 72px;
+}
+
+.about,
+.how-it-works,
+.audience,
+.training,
+.timeline,
+.skills {
+	background-color: #eeeeee;
+}
+
+.card-control {
+	min-height: 220px;
+}
+
+.footer {
+	min-height: 200px;
+	background-color: #eeeeee;
+	background-image: url("/src/images/footer-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
