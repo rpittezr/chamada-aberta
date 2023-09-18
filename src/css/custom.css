@@ -4,7 +4,7 @@ p {
 
 .header {
 	height: 80vh;
-	background-image: "../images/header-background.png";
+	background-image: url(../images/header-background.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -67,7 +67,7 @@ p {
 .footer {
 	min-height: 200px;
 	background-color: #eeeeee;
-	background-image: "../images/footer-background.png";
+	background-image: url(../images/footer-background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
