@@ -10,7 +10,7 @@ p {
 }
 @media (max-width: 668px) {
 	.header {
-		min-height: 80vh;
+		min-height: 70vh;
 		margin-bottom: 6rem;
 	}
 	.header-container {
