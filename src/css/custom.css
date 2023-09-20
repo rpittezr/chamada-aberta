@@ -33,7 +33,7 @@ p {
 
 @media (min-width: 669px) {
 	.header {
-		min-height: 100vh;
+		min-height: 924px;
 	}
 	.header-container {
 		top: 120px;
